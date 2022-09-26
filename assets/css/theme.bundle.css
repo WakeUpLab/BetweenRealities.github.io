@@ -21731,11 +21731,11 @@ fieldset:disabled .btn {
 }
 
 .bg-gradient-purple-cream{
-        background-image: linear-gradient(180deg, #381440 0, #130d22);
+        background-image: linear-gradient(180deg, #381440 0, #100d10);
 }
 
 .bg-gradient-deep-blue{
-        background-image: linear-gradient(180deg, #130d22 0, #381440);
+        background-image: linear-gradient(180deg, #100d10 0, #381440);
 }
 
 .bg-gradient-foot {

@@ -1360,7 +1360,7 @@ progress {
 
         .col-md-icon {
                 flex: 0 0 auto;
-                width: 11%
+                width: 5%
         }
         .col-md-1 {
                 flex: 0 0 auto;
@@ -10414,8 +10414,8 @@ fieldset:disabled .btn {
 }
 
 .py-8 {
-        padding-bottom: 3rem !important;
-        padding-top: 3rem !important
+        padding-bottom: 1rem !important;
+        padding-top: 1rem !important
 }
 
 .py-9 {
@@ -21726,16 +21726,17 @@ fieldset:disabled .btn {
         outline-color: transparent;
 
 }
+
 .bg-gradient-purple-blue{
         background-image: linear-gradient(180deg, #aa77fc 0, #1b2a4e);
 }
 
 .bg-gradient-purple-cream{
-        background-image: linear-gradient(180deg, #381440 0, #130d22);
+        background-image: linear-gradient(180deg, #381440 0, #100d10);
 }
 
 .bg-gradient-deep-blue{
-        background-image: linear-gradient(180deg, #130d22 0, #381440);
+        background-image: linear-gradient(180deg, #100d10 0, #381440);
 }
 
 .bg-gradient-foot {
