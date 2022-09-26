@@ -2614,7 +2614,7 @@ progress {
 }
 
 .table {
-        --bs-table-bg: #fff;
+        --bs-table-bg: #141414;
         --bs-table-accent-bg: transparent;
         --bs-table-striped-color: #161c2d;
         --bs-table-striped-bg: #f9fbfd;
@@ -2622,7 +2622,7 @@ progress {
         --bs-table-active-bg: #f9fbfd;
         --bs-table-hover-color: #161c2d;
         --bs-table-hover-bg: #f9fbfd;
-        border-color: #f1f4f8;
+        /* border-color: #f1f4f8; */
         color: #161c2d;
         margin-bottom: 1rem;
         vertical-align: top;
@@ -14267,7 +14267,7 @@ fieldset:disabled .btn {
         }
 
         .mb-md-9 {
-                margin-bottom: 4rem !important
+                margin-bottom: 0rem !important
         }
 
         .mb-md-10 {
@@ -15292,7 +15292,7 @@ fieldset:disabled .btn {
         }
 
         .pb-md-11 {
-                padding-bottom: 6rem !important
+                padding-bottom: 0rem !important
         }
 
         .pb-md-12 {
