@@ -2623,7 +2623,7 @@ progress {
         --bs-table-hover-color: #161c2d;
         --bs-table-hover-bg: #f9fbfd;
         /* border-color: #f1f4f8; */
-        color: #161c2d;
+        color: white;
         margin-bottom: 1rem;
         vertical-align: top;
         width: 100%
