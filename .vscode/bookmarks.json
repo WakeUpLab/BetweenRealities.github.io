@@ -4,8 +4,18 @@
 			"path": "assets/css/theme.bundle.css",
 			"bookmarks": [
 				{
-					"line": 3070,
+					"line": 3078,
 					"column": 33,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 702,
+					"column": 35,
 					"label": ""
 				}
 			]
