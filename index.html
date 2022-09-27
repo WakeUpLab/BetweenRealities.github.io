@@ -1137,330 +1137,350 @@
 
 
   <section class="pt-6 py-md-11 ">
-    <div class="container ">
+    <div class="container" style="padding-left: 0px;padding-right: 0px;">
+  
+  
+      <!-- tabla encabezado -->
+      <table id="emp-table" class="col-12 ">
+        <thead class="col-12 ">
+  
+          <!-- modules -->
+          <!-- <div class="col-12 col-md-4"> -->
+          <th col-index=1 class="col-12 col-md-4">
+  
+            <select class="form-select table-filter" onchange="filter_rows()">
+              <!-- <option value="all"></option> -->
+              <option selected value="all">All modules</option>
+            </select>
+          </th>
+          <!-- </div> -->
+  
+          <!-- packages -->
+          <!-- <div class="col-12 col-md-4"> -->
+          <th col-index=2 class="col-12 col-md-4">
+            <select class="form-select table-filter" onchange="filter_rows()">
+              <!-- <option value="all"></option> -->
+              <option selected value="all">All packages</option>
+  
+            </select>
+          </th>
+          <!-- </div> -->
+  
+          <!-- sizes -->
+          <!-- <div class="col-12 col-md-4"> -->
+          <th col-index=3 class="col-12 col-md-4">
+            <select class="form-select table-filter" onchange="filter_rows()">
+              <!-- <option value="all"></option> -->
+              <option selected value="all">All sizes</option>
+  
+            </select>
+          </th>
+          <!-- </div> -->
+  
+  
+        </thead>
+  
+      </table>
+    </div>
+    <!-- </form> -->
+    <!-- </div> -->
+    < <!-- data table in html -->
+      <div class="container pb-8 pb-md-11 ">
+        <div class="row">
+          <div class="col-12">
+            <!-- Table -->
+            <div class="table-responsive mb-7 mb-md-9">
 
+              <table id="intro" class="table table-align-middle ">
 
-              <!-- tabla encabezado -->
-              <table id="emp-table" class="col-12 ">
-                <thead class="col-12 ">
-            
-                  <!-- modules -->
-                  <!-- <div class="col-12 col-md-4"> -->
-                    <th col-index=1 class="col-12 col-md-4">
-                      
-                      <select class="form-select table-filter" onchange="filter_rows()">
-                        <!-- <option value="all"></option> -->
-                        <option selected value="all">All modules</option>
-                      </select>
+                  <!-- TABLA PRIMERA FILA -->
+                  <tr>
+                    <th>
+                      <span class="h6 text-uppercase fw-bold">
+                        Module
+                      </span>
                     </th>
-                  <!-- </div> -->
-
-                  <!-- packages -->
-                  <!-- <div class="col-12 col-md-4"> -->
-                    <th col-index=2 class="col-12 col-md-4">
-                      <select class="form-select table-filter" onchange="filter_rows()">
-                        <!-- <option value="all"></option> -->
-                        <option selected value="all">All packages</option>
-
-                      </select>
+                    <th>
+                      <span class="h6 text-uppercase fw-bold">
+                        Package
+                      </span>
                     </th>
-                  <!-- </div> -->
-                  
-                  <!-- sizes -->
-                  <!-- <div class="col-12 col-md-4"> -->
-                    <th col-index=3 class="col-12 col-md-4">
-                      <select class="form-select table-filter" onchange="filter_rows()">
-                        <!-- <option value="all"></option> -->
-                        <option selected value="all">All sizes</option>
-
-                      </select>
+                    <th>
+                      <span class="h6 text-uppercase fw-bold">
+                        Size
+                      </span>
                     </th>
-                  <!-- </div> -->
-                
-                
-                </thead>
-
+                  </tr>
               </table>
 
-        <
-
-    <!-- data table in html -->
-    <div class="container pb-8 pb-md-11 ">
-      <div class="row">
-        <div class="col-12">
-          <!-- Table -->
-          <div class="table-responsive mb-7 mb-md-9">
-            <table id="emp-table" class="table table-align-middle">
-
-
-              <!-- cuerpo tabla -->
-              <tbody>
-
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Point cloud</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Point cloud</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Geographical Information System</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Point cloud</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Nube Puntos</td>
-                  <td>Geographical Information System</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Geographical Information System</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Análisis Nube Puntos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Point cloud</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Virtual Reallity</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Point cloud</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Geographical Information System</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Building Information Model</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Virtual Reallity</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Point cloud</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Geographical Information System</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Mesh Tridimensional</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Datos GIS</td>
-                  <td>Virtual Reallity</td>
-                  <td>Small</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Geographical Information System</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Datos Planimétricos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Información RT</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Diseño Proyecto Espacial</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Diseño Proyecto Espacial</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Diseño Proyecto Espacial</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Diseño Proyecto Espacial</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Desarrollo de Marca</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Automatizaciones y Transferencias</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Automatizaciones y Transferencias</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Iteraciones Diseño</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Iteraciones Diseño</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Imágenes y Vídeos</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Imágenes y Vídeos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Imágenes y Vídeos</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Imágenes y Vídeos</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Geographical Information System</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Building Information Model</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Virtual Reallity</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Geographical Information System</td>
-                  <td>Large</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Building Information Model</td>
-                  <td>Medium</td>
-                </tr>
-                <tr>
-                  <td>Package and Online Distribution</td>
-                  <td>Virtual Reallity</td>
-                  <td>Large</td>
-                </tr>
-
-
-              </tbody>
-            </table>
+              <table id="emp-table" class="table table-align-middle">
+  
+                <!-- cuerpo tabla -->
+                <tbody>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Point cloud</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Point cloud</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Geographical Information System</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Point cloud</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Nube Puntos</td>
+                    <td>Geographical Information System</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Geographical Information System</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Análisis Nube Puntos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Point cloud</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Virtual Reallity</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Point cloud</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Geographical Information System</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Building Information Model</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Virtual Reallity</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Point cloud</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Geographical Information System</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Mesh Tridimensional</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Datos GIS</td>
+                    <td>Virtual Reallity</td>
+                    <td>Small</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Geographical Information System</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Datos Planimétricos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Información RT</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Diseño Proyecto Espacial</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Diseño Proyecto Espacial</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Diseño Proyecto Espacial</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Diseño Proyecto Espacial</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Desarrollo de Marca</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Automatizaciones y Transferencias</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Automatizaciones y Transferencias</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Iteraciones Diseño</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Iteraciones Diseño</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Imágenes y Vídeos</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Imágenes y Vídeos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Imágenes y Vídeos</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Imágenes y Vídeos</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Geographical Information System</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Building Information Model</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Virtual Reallity</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Geographical Information System</td>
+                    <td>Large</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Building Information Model</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Package and Online Distribution</td>
+                    <td>Virtual Reallity</td>
+                    <td>Large</td>
+                  </tr>
+  
+  
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
-
 
 
 <!-- link js -->

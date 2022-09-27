@@ -622,6 +622,12 @@ progress {
         width: 100%
 }
 
+.container-nopadding {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%
+}
+
 @media (min-width:576px) {
 
         .container,
