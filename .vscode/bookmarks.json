@@ -9,6 +9,16 @@
 					"label": ""
 				}
 			]
+		},
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 698,
+					"column": 13,
+					"label": ""
+				}
+			]
 		}
 	]
 }

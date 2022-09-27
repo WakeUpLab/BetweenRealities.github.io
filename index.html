@@ -9,13 +9,16 @@
   <link rel="shortcut icon" href="./assets/favicon/EntreMundosShrink.ico" type="image/x-icon" />
 
   <!-- Map CSS -->
-  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+  <!-- <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" /> -->
 
   <!-- Libs CSS -->
   <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
 
   <!-- Theme CSS -->
   <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+  <!-- Get js -->
+  <script src="assets/js/filter.js"></script>
 
   <!-- Title -->
   <title>BetweenRealities</title>
@@ -693,11 +696,11 @@
   <section class="pt-6 py-md-11 ">
     <div class="container pb-8 pb-md-11 ">
 
-      
+      <!-- droopdown selector -->
       <div class="row ">
         <div class="col-12 ">
 
-          <!-- Form -->
+          <!-- Form heading dropdown selectors -->
           <form class="mb-7 mb-md-9 ">
             <div class="row ">
               <div class="col-12 col-md-4 ">
@@ -773,6 +776,7 @@
 
         </div>
       </div> <!-- / .row -->
+      
       <div class="row align-items-center mb-5">
         <div class="col">
 
@@ -796,6 +800,8 @@
 
         </div>
       </div> <!-- / .row -->
+      
+      <!-- table geenral -->
       <div class="row">
         <div class="col-12">
 
@@ -959,6 +965,8 @@
 
 
     </div> <!-- / .container -->
+
+    
   </section>
 
 
@@ -1116,6 +1124,157 @@
 
 
   <!-- </section> -->
+
+
+<!-- tabla encabezado -->
+<table id="emp-table">
+  <!-- encabezado -->
+  <thead>
+      <th col-index = 1>Employee ID</th>
+      <th col-index = 2>Hello
+          <select class="form-select table-filter" onchange="filter_rows()">
+              <option value="all"></option>
+          </select>
+      </th>
+
+      <th col-index = 3>Department
+          <select class="table-filter" onchange="filter_rows()">
+              <option value="all"></option>
+          </select>
+      </th>
+      <th col-index = 4>Status
+          <select class="table-filter" onchange="filter_rows()">
+              <option value="all"></option>
+          </select>
+      </th>
+      <th col-index = 5>Office
+          <select class="table-filter" onchange="filter_rows()">
+              <option value="all"></option>
+          </select>
+      </th>
+      
+  </thead>
+</table>
+
+<!-- data table in html -->
+<section class="pt-6 py-md-11 ">
+  <div class="container pb-8 pb-md-11 ">
+    <div class="row">
+      <div class="col-12">
+        <!-- Table -->
+        <div class="table-responsive mb-7 mb-md-9">
+          <table id="emp-table" class="table table-align-middle">
+
+
+            <!-- cuerpo tabla -->
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>S</td>
+                    <td>RnD</td>
+                    <td>Online</td>
+                    <td>Site 1</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>X</td>
+                    <td>RnD</td>
+                    <td>On Leave</td>
+                    <td>Site 1</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>F</td>
+                    <td>RnD</td>
+                    <td>Online</td>
+                    <td>Site 1</td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>F</td>
+                    <td>Engineering</td>
+                    <td>Online</td>
+                    <td>Site 1</td>
+                </tr>
+                <tr>
+                    <td>201</td>
+                    <td>F</td>
+                    <td>Engineering</td>
+                    <td>On Leave</td>
+                    <td>Site 2</td>
+                </tr>
+                <tr>
+                    <td>202</td>
+                    <td>F</td>
+                    <td>Engineering</td>
+                    <td>Online</td>
+                    <td>Site 2</td>
+                </tr>
+                <tr>
+                    <td>203</td>
+                    <td>M</td>
+                    <td>Engineering</td>
+                    <td>Online</td>
+                    <td>Site 2</td>
+                </tr>
+                <tr>
+                    <td>204</td>
+                    <td>M</td>
+                    <td>Design</td>
+                    <td>Online</td>
+                    <td>Site 2</td>
+                </tr>
+                <tr>
+                    <td>301</td>
+                    <td>F</td>
+                    <td>Support</td>
+                    <td>Online</td>
+                    <td>Site 3</td>
+                </tr>
+                <tr>
+                    <td>302</td>
+                    <td>F</td>
+                    <td>Support</td>
+                    <td>Online</td>
+                    <td>Site 3</td>
+                </tr>
+                <tr>
+                    <td>303</td>
+                    <td>M</td>
+                    <td>Support</td>
+                    <td>Terminated</td>
+                    <td>Site 3</td>
+                </tr>
+                <tr>
+                    <td>304</td>
+                    <td>M</td>
+                    <td>Support</td>
+                    <td>On Leave</td>
+                    <td>Site 3</td>
+                </tr>
+                
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- link js -->
+<script>
+  window.onload = () => {
+      console.log(document.querySelector("#emp-table > tbody > tr:nth-child(1) > td:nth-child(2) ").innerHTML);
+  };
+
+  getUniqueValuesFromColumn()
+  
+</script>
+
+
+
+
 
 </body>
 
