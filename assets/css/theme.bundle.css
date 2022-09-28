@@ -10973,7 +10973,9 @@ fieldset:disabled .btn {
 }
 
 .text-muted {
-        color: #dae0e9 !important
+        color: #ffffff !important;
+        /* color: #dae0e9 !important; */
+
 }
 
 .text-muted-80 {
