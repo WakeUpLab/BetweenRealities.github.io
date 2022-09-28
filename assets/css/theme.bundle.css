@@ -533,9 +533,13 @@ progress {
 }
 
 .display-3 {
-        font-size: 3rem;
-        font-weight: bolder
+        font-size: 40px;
+        font-weight: bold;
+        font-family: charter;
+
 }
+
+
 
 .display-4 {
         font-size: 2.6875rem;
@@ -10883,7 +10887,9 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-        color: #f75c9a !important
+        color: #ffffff !important;
+        /* color: #f75c9a !important */
+
 }
 
 .text-secondary {
@@ -22219,6 +22225,14 @@ html {
         src: url(../fonts/Feather/Feather.ttf?sdxovp) format("truetype"), url(../fonts/Feather/Feather.woff?sdxovp) format("woff"), url(../fonts/Feather/Feather.svg?sdxovp#Feather) format("svg")
 }
 
+@font-face {
+        font-family: charter;
+        font-style: normal;
+        font-weight: 400;
+        src: url(../fonts/charter/ttf/Charter\ Regular.ttf) format("truetype"), url(../fonts/charter/webfonts/charter_regular-webfont.woff) format("woff"), url(../fonts/charter/webfonts/charter_regular-webfont.eot) format("eot")
+}
+
+
 .h1,
 .h2,
 h1,
@@ -22237,9 +22251,20 @@ h4 {
         letter-spacing: -.01em
 }
 
+
+
 .h1,
 h1 {
-        line-height: 1.3
+        /* font-size: 2.3125rem; */
+        color:#ffffff;
+        /* background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+        line-height: 1.1;
+        letter-spacing: -0.015em;
+        font-size: 40px;
+        font-family: charter;
+
 }
 
 @media (max-width:991.98px) {
@@ -22252,7 +22277,12 @@ h1 {
 
 .h2,
 h2 {
-        line-height: 1.35
+        /* line-height: 1.35; */
+        font-size: 40px;
+        font-weight: normal;
+        /* font-family: charterregular, georgia, times; */
+        font-family: charter;
+
 }
 
 @media (max-width:991.98px) {
