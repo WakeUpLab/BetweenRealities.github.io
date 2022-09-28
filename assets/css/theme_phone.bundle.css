@@ -526,7 +526,7 @@ progress {
 
 .display-3 {
         font-size: 3rem;
-        font-weight: bolder
+        font-weight: bolder;
 }
 
 .display-4 {
@@ -10860,7 +10860,9 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-        color: #f75c9a !important
+        color: #ffff !important;
+        /* color: #f75c9a !important */
+
 }
 
 .text-secondary {
