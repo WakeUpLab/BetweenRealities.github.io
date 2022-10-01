@@ -81,6 +81,12 @@ body {
         text-align: var(--bs-body-text-align)
 }
 
+.swipe{
+        overflow:auto;
+        white-space:nowrap;
+    }
+
+    
 hr {
         background-color: currentColor;
         border: 0;
@@ -2845,7 +2851,7 @@ tr:nth-child(n + 5) {
 @media (max-width:1399.98px) {
         .table-responsive-xxl {
                 -webkit-overflow-scrolling: touch;
-                overflow-x: auto
+                overflow-x: auto        
         }
 }
 
@@ -22298,7 +22304,7 @@ h2 {
 .h3,
 h3 {
         line-height: 1.4;
-        font-family: charter;
+        /* font-family: charter; */
 }
 
 @media (max-width:991.98px) {
