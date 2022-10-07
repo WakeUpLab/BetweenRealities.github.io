@@ -10974,7 +10974,8 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-        color: #ffffff !important;
+        color: #fff !important
+
         /* color: #f75c9a !important */
 
 }
