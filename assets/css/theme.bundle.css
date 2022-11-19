@@ -54,7 +54,9 @@
         --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-        --bs-body-font-family: HKGroteskPro, serif;
+        /* --bs-body-font-family: , serif; */
+        --bs-body-font-family: OpenSans, HKGroteskPro;
+
         --bs-body-font-size: 1.0625rem;
         --bs-body-font-weight: 400;
         --bs-body-line-height: 1.6;
@@ -22290,7 +22292,7 @@ html {
         }
 }
 
-@font-face {
+/* @font-face {
         font-family: HKGroteskPro;
         font-weight: 400;
         src: url(../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff2) format("woff2"), url(../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff) format("woff")
@@ -22306,6 +22308,25 @@ html {
         font-family: HKGroteskPro;
         font-weight: 700;
         src: url(../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff2) format("woff2"), url(../fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff) format("woff")
+} */
+
+@font-face {
+        font-family: OpenSans;
+        font-weight: 400;
+        src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf) format("truetype")
+}
+
+
+@font-face {
+        font-family: OpenSans;
+        font-weight: 600;
+        src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf) format("truetype")
+}
+
+@font-face {
+        font-family: OpenSans;
+        font-weight: 700;
+        src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf) format("truetype")
 }
 
 @font-face {
