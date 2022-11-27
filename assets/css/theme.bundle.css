@@ -26509,4 +26509,17 @@ a.card:hover {
         max-width: 100%
 }
 
+
+
+.bg-image {
+background-image: "assets/img/patterns/pattern-2.png";
+background-repeat: repeat;
+/* background-size: cover; */
+background-position: center;
+background-attachment: fixed;
+}
+
+
+
+
 /*# sourceMappingURL=theme.bundle.css.map*/
